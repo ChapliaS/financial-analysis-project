@@ -18,7 +18,6 @@ This project provides tools for analyzing financial metrics using classical and 
   - `ml_models.py`: Trains and evaluates Random Forest and SVM models.
   - `decision_support.py`: Integrates model results into decision-making logic.
   - `visualization.py`: Creates charts and graphs for data visualization.
-  - `reporting.py`: Generates summary reports.
 
 ## Requirements
 
