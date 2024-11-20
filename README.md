@@ -21,6 +21,52 @@ This project provides tools for analyzing financial metrics using classical and 
 
 ## Requirements
 
-Before running the project, ensure you have Python installed (>=3.7). Install required libraries using:
+Before running the project, ensure you have Python installed (>=3.9). Install required libraries using:
 ```bash
 pip install -r requirements.txt
+```
+
+## How to Run
+
+To run the project, follow these steps:
+
+1. Clone the Repository
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+
+2. Set Up the Virtual Environment
+It is recommended to use a virtual environment to avoid conflicts with your system Python setup.
+python -m venv venv
+source venv/bin/activate  # For Linux/Mac
+venv\Scripts\activate     # For Windows
+
+3. Install Required Dependencies
+Install all the necessary Python packages using the requirements.txt file:
+pip install -r requirements.txt
+
+4. Prepare Input Data
+Make sure the financial_data.csv file is placed in the same directory as the project. This file contains the financial data required for the calculations.
+
+5. Run the Scripts
+- To calculate financial coefficients and generate visualizations (ROA, Liquidity, Debt Ratio):
+
+python project/main-1-calc-grph.py
+
+ps. to generate graphics uncomment " plot_comparison_graphs(data, results, target_column) #vizualization ". 
+
+- To get decision-making recommendations based on the analyzed data:
+
+python project/main-2-decisions.py
+
+- To compare model accuracy and execution times:
+python project/main-3-comparision.py
+
+6. View the Results
+Visualizations and outputs will be displayed in the terminal or generated as files in the project directory.
+
+7. Deactivate the Virtual Environment
+After running the project, you can deactivate the virtual environment by running:
+deactivate
+
+
+
