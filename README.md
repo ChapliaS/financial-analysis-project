@@ -42,7 +42,7 @@ It is recommended to use a virtual environment to avoid conflicts with your syst
 python -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
-
+```
 3. Install Required Dependencies
 ```bash
 Install all the necessary Python packages using the requirements.txt file:
