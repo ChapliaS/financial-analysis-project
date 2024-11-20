@@ -44,8 +44,8 @@ source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
 ```
 3. Install Required Dependencies
-```bash
 Install all the necessary Python packages using the requirements.txt file:
+```bash
 pip install -r requirements.txt
 ```
 4. Prepare Input Data
